@@ -1,0 +1,398 @@
+[
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Julius Ahr",
+      "expected_name": "JULIUS GEORG AHR"
+    },
+    "scoring": [
+      {
+        "part": "JULIUS",
+        "scoring": 100
+      },
+      {
+        "part": "GEORG",
+        "scoring": 25
+      },
+      {
+        "part": "AHR",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Dennis Mießler",
+      "expected_name": "DENNIS MIESSLER"
+    },
+    "scoring": [
+      {
+        "part": "DENNIS",
+        "scoring": 100
+      },
+      {
+        "part": "MIESSLER",
+        "scoring": 80
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Herbert und Sylvia Cremer",
+      "expected_name": "HERBERT CREMER"
+    },
+    "scoring": [
+      {
+        "part": "HERBERT",
+        "scoring": 100
+      },
+      {
+        "part": "CREMER",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Haysam Dibo Al Omar",
+      "expected_name": "HAYSAM DIBO AL OMAR"
+    },
+    "scoring": [
+      {
+        "part": "HAYSAM",
+        "scoring": 100
+      },
+      {
+        "part": "DIBO",
+        "scoring": 100
+      },
+      {
+        "part": "AL",
+        "scoring": 100
+      },
+      {
+        "part": "OMAR",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Haysam, Dibo Al Omar",
+      "expected_name": "HAYSAM DIBO AL OMAR"
+    },
+    "scoring": [
+      {
+        "part": "HAYSAM",
+        "scoring": 100
+      },
+      {
+        "part": "DIBO",
+        "scoring": 100
+      },
+      {
+        "part": "AL",
+        "scoring": 100
+      },
+      {
+        "part": "OMAR",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Haysam, DibÖ Al Omar",
+      "expected_name": "HAYSAM DIBO AL ÖMAR"
+    },
+    "scoring": [
+      {
+        "part": "HAYSAM",
+        "scoring": 100
+      },
+      {
+        "part": "DIBO",
+        "scoring": 75
+      },
+      {
+        "part": "AL",
+        "scoring": 100
+      },
+      {
+        "part": "ÖMAR",
+        "scoring": 75
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Haysam Ömar",
+      "expected_name": "HAYSAM DIBO AL ÖMAR"
+    },
+    "scoring": [
+      {
+        "part": "HAYSAM",
+        "scoring": 100
+      },
+      {
+        "part": "DIBO",
+        "scoring": 0
+      },
+      {
+        "part": "AL",
+        "scoring": 33
+      },
+      {
+        "part": "ÖMAR",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Haysam Ömar",
+      "expected_name": "HAYSAM DIBÖ AL ÖMAR"
+    },
+    "scoring": [
+      {
+        "part": "HAYSAM",
+        "scoring": 100
+      },
+      {
+        "part": "DIBÖ",
+        "scoring": 25
+      },
+      {
+        "part": "AL",
+        "scoring": 33
+      },
+      {
+        "part": "ÖMAR",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": true,
+      "actual_name": "Haysam, DibÖ Al Omar",
+      "expected_name": "HAYSAM DIBO AL ÖMAR"
+    },
+    "scoring": [
+      {
+        "part": "HAYSAM",
+        "scoring": 100
+      },
+      {
+        "part": "DIBO",
+        "scoring": 75
+      },
+      {
+        "part": "AL",
+        "scoring": 100
+      },
+      {
+        "part": "ÖMAR",
+        "scoring": 75
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Pavlito Gunnar-Ivanich",
+      "expected_name": "Pavlito Ivanich"
+    },
+    "scoring": [
+      {
+        "part": "Pavlito",
+        "scoring": 100
+      },
+      {
+        "part": "Ivanich",
+        "scoring": 67
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "",
+      "expected_name": "Michael"
+    },
+    "scoring": [
+      {
+        "part": "Michael",
+        "scoring": 0
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Christiano Ronaldo",
+      "expected_name": "Christianinho Ronaldo"
+    },
+    "scoring": [
+      {
+        "part": "Christianinho",
+        "scoring": 87
+      },
+      {
+        "part": "Ronaldo",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Unlimint Sepa",
+      "expected_name": "Nonlimint Sepa"
+    },
+    "scoring": [
+      {
+        "part": "Nonlimint",
+        "scoring": 82
+      },
+      {
+        "part": "Sepa",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Jannis Breunig",
+      "expected_name": "JANNIS JANNIS"
+    },
+    "scoring": [
+      {
+        "part": "JANNIS",
+        "scoring": 100
+      },
+      {
+        "part": "JANNIS",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Herbert und Sylvia Cremer",
+      "expected_name": "ALBERT CREMER"
+    },
+    "scoring": [
+      {
+        "part": "ALBERT",
+        "scoring": 62
+      },
+      {
+        "part": "CREMER",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Herbert und Sylvia Cremer",
+      "expected_name": "SUPER UND"
+    },
+    "scoring": [
+      {
+        "part": "SUPER",
+        "scoring": 36
+      },
+      {
+        "part": "UND",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Jannis Breunig",
+      "expected_name": "MICHAEL MAKAROV"
+    },
+    "scoring": [
+      {
+        "part": "MICHAEL",
+        "scoring": 15
+      },
+      {
+        "part": "MAKAROV",
+        "scoring": 15
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Jannis Breunig",
+      "expected_name": "MICHAEL BREUNIG"
+    },
+    "scoring": [
+      {
+        "part": "MICHAEL",
+        "scoring": 15
+      },
+      {
+        "part": "BREUNIG",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Jannis Breunig",
+      "expected_name": "MICHAEL ASDFZXCV BREUNIG"
+    },
+    "scoring": [
+      {
+        "part": "MICHAEL",
+        "scoring": 15
+      },
+      {
+        "part": "ASDFZXCV",
+        "scoring": 29
+      },
+      {
+        "part": "BREUNIG",
+        "scoring": 100
+      }
+    ]
+  },
+  {
+    "name": {
+      "accepted": false,
+      "actual_name": "Haysam Ömar",
+      "expected_name": "DIBÖ AL ÖMAR"
+    },
+    "scoring": [
+      {
+        "part": "DIBÖ",
+        "scoring": 25
+      },
+      {
+        "part": "AL",
+        "scoring": 33
+      },
+      {
+        "part": "ÖMAR",
+        "scoring": 100
+      }
+    ]
+  }
+]
